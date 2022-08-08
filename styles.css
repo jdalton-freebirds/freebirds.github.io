@@ -1,13 +1,14 @@
-div.homebanner {
-    background-image: url('/Users/joshuadalton/Freebirds Project/freebirds.github.io/jdalton-freebirds.github.io/denali-mountains-mount-mckinley-sunrise.jpeg');
-    background-repeat: none;
-    /*background-position: center;*/
-    max-height: fit-content;
-    background-size: cover;
-}
-
 #homebanner {
     background-image: url('/Users/joshuadalton/Freebirds Project/freebirds.github.io/jdalton-freebirds.github.io/denali-mountains-mount-mckinley-sunrise.jpeg');
+    background-repeat: none;
+    height: 800px;
+    max-height: fit-content;
+    background-size: cover;
+    opacity: 75%;
+}
+
+#middlebanner {
+    background-image: url('bigbend-lajitas-peak.jpeg');
     background-repeat: none;
     height: 800px;
     max-height: fit-content;
@@ -16,7 +17,7 @@ div.homebanner {
 
 #freebirdswb {
     align-self: center;
-    margin-top: 300px;
+    margin-top: 250px;
     height: 240px;
     width: 800px;
 }
