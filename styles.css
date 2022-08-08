@@ -17,7 +17,7 @@
 
 #freebirdswb {
     align-self: center;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: 30px;
     height: 200px;
     width: 600px;
@@ -37,7 +37,7 @@ font-size: 20px;
 font-family: Geneva;
 font-style: normal;
 display: inline-block;
-padding: 14px 16px;
+padding: 0px 10px;
 margin: 25px 0px 25px;
 }
 
