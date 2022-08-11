@@ -7,8 +7,16 @@
     opacity: 100%;
 }
 
+#blackbanner {
+    background-color: white;
+    background-repeat: none;
+    height: 900px;
+    max-height: fit-content;
+    background-size: cover;
+}
+
 #middlebanner {
-    background-image: url('metaverse-sun.jpeg');
+    background-image: url('bigbend-lajitas-peak.jpeg');
     background-repeat: none;
     height: 900px;
     max-height: fit-content;
@@ -21,6 +29,20 @@
     margin-left: 30px;
     height: 200px;
     width: 600px;
+}
+
+#freewings {
+    align-self: center;
+    margin-top: 1px;
+    height: 80px;
+    width: 120px;
+}
+
+#peoplepage {
+    margin-top: 120px;
+    height: 35%;
+    width: 35%;
+    border-radius: 50%;
 }
 
 
@@ -65,4 +87,17 @@ margin-left:        150px;
 margin-right:       150px; 
 margin-top:         50px;
 margin-bottom:      50px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+/* Clear floats after the columns */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
