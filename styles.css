@@ -1,3 +1,24 @@
+/* Freebirds Brand Colors*/
+
+/* Primary Colors
+Carbon: #323131
+Orange: #FF7500
+Alabaster: #EEEBE1
+White: #FFFFFF
+*/
+
+/* Secondary Colors
+Sky Blue: #8BC4D1
+Blue: #4188DC
+Green: #4B9959
+*/
+
+/* Tertiary Colors
+Deep Blue: #204648
+Deep Orange: #5E2500
+Deep Green: #0C3D0C
+*/
+
 #homebanner {
     background-image: url('metaverse-sun.jpeg');
     background-repeat: none;
@@ -7,8 +28,66 @@
     opacity: 100%;
 }
 
-#blackbanner {
-    background-color: white;
+.teamsection-header {
+    color: #FF7500;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.c-orange {
+    color: #FF7500; }
+
+.tracked-terminal {
+        letter-spacing: .1em; }
+
+.lh-solid {
+    line-height: 1; }
+    
+.lh-title {
+    line-height: 1.25; }
+
+.lh-copy {
+    line-height: 1.5; }
+
+.lh-blink {
+    line-height: 1.15; }
+
+.dib-m {
+    display: inline-block; }
+
+    .fbtn {
+        background-color: #FF7401;
+        display: block;
+        padding: 15px 40px;
+        text-align: center;
+        color: white;
+        font-family: "Nitti Grotesk";
+        border-radius: 3px;
+        font-size: 20px;
+        font-weight: 600; }
+        @media (min-width: 768px) {
+          .fbtn {
+            display: inline-block; } }
+        .fbtn:hover, .btn:focus {
+          background-color: #7ACCF1;
+          cursor: pointer;
+          outline: 0;
+          transition: background-color 0.5s ease; }
+        .fbtn:active {
+          background-color: #89D5EF;
+          transition: background-color 0.5s ease; }
+
+.autotype:after {
+    content: "assets";
+    background-color: none;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    height: 1em; }
+
+#blackbanner { 
+    background-color: #323131;
     background-repeat: none;
     height: 900px;
     max-height: fit-content;
@@ -46,7 +125,7 @@
 }
 
 
-header {background-color: transparent;
+header {background-color: #323131;
 }
 
 /* Navigation Bar in the Header */
@@ -101,3 +180,8 @@ margin-bottom:      50px;
     display: table;
     clear: both;
 }
+
+ul li {
+    display: inline;
+}
+
